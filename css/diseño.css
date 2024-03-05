@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+     padding: 20px;
+     background-color:  #fdffe7;
+}
+#frase-fondo {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color: antiquewhite;
+   color: blueviolet;
+    padding: 50px;
+}
+#objetivo{
+    padding-left: 20px;
+}
+#plan{
+    padding: 20px;
+}
+#objetivo-taller {
+    text-align: justify;
+}
+
+#zona-imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio uniforme entre las imágenes */
+    align-items: center;
+    /* Centra verticalmente las imágenes y las frases */
+}
+
+.img-fluid {
+    width: 25%;
+    padding: 10px;
+    /* Ajusta el espaciado según tus preferencias */
+    border-radius: 50%;
+    /* Para que las imágenes sean redondeadas */
+}
+
+.image-caption {
+    text-align: center;
+    /* Centra horizontalmente las frases */
+    font-size: 14px;
+    /* Tamaño de fuente para las frases */
+}
+
+#bienvenida-taller {
+    text-align: justify;
+}
+#tablita{
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: justify;
+}
+
+#columna-junta {
+    text-align: center;
+}
+
+tr:nth-child(3) td {
+    /* Combina las columnas 2, 3, 4 y 5 en la fila 3 */
+    grid-column: 2 / span 4;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid  #fff1c5; 
+    background-color:  beige;
+    border-radius: 5px;
+}
+#inscripcion{
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

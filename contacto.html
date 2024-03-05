@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cuna de amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            padding: 20px;
+            background-color:  #fdffe7;
+        }
+
+        .row {
+            text-align: justify;
+            padding: 20px
+        }
+
+        #titulo {
+            padding: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            color: crimson;
+        }
+
+        #contacto {
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: xx-large;
+            background-color: aquamarine;
+            background-image: url(img/bolitas.jpg);
+            color: blueviolet;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 400px;
+            /* Ocupa únicamente 6 espacios */
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: beige;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar"
+    style="background-color: aquamarine; padding: 15px; display: flex; justify-content: center; align-items: center; height: 60px;">
+    <ul class="nav-list" style="list-style: none; display: flex; align-items: center;">
+        <li style="margin-right: 40px;">
+            <a href="index.html" style="text-decoration: none; color: blueviolet; font-weight: bold;">INICIO</a>
+        </li>
+        <li style="margin-right: 45px;">
+            <a href="#" style="text-decoration: none; color: blueviolet; font-weight: bold;">CONOCE NUESTRA
+                HISTORIA</a>
+        </li>
+        <li style="margin-right: 45px;">
+            <a href="servicio.html" style="text-decoration: none; color: blueviolet; font-weight: bold;">CURSOS</a>
+        </li>
+        <li style="margin-right: 45px;">
+            <a href="servicio2.html" style="text-decoration: none; color: blueviolet; font-weight: bold;">RED DE
+                APOYO</a>
+        </li>
+        <li style="margin-right: 45px;">
+            <a href="contacto.html"
+                style="text-decoration: none; color: blueviolet; font-weight: bold;">CONTÁCTANOS</a>
+        </li>
+        <li style="margin-right: 45px;">
+            <a href="#" style="text-decoration: none; color: blueviolet; font-weight: bold;">DONA</a>
+        </li>
+    </ul>
+</nav>
+    <div id="contacto" class="row">
+        <h1>Contáctanos</h1>
+    </div>
+    <hr>
+    <!-- Iconos -->
+    <div class="row">
+        <div class="col-6">
+            <div id="titulo">
+                <h1>Nos puedes encontrar en:</h1>
+            </div>
+            <p>Contacta con Cuna de amor en los siguientes canales, tanto para usuarios, voluntarios y empresas: </p>
+            <img src="img/watsap.png" width="45px">#9997 4033 0902
+            <br><img src="img/llamada.png" width="40px">#9992 6603 8776
+            <br><img src="img/ubicacion.jpg" width="40px">Calle 39 entre 88 y 14
+            <hr>
+            Tambien nos puedes encontrar en:
+            <br><a href="https://es-la.facebook.com/"><img src="img/logo_facebook.png" width="5%"></a>
+            <a href="https://www.instagram.com/"><img src="img/logo_instagram.png" width="5%"></a>
+            <a href="https://mx.linkedin.com/"><img src="img/logo_linkedin.png" width="5%"></a>
+        </div>
+        <div class="col-6">
+            <div class="container">
+                <form>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre completo">
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="Ingresa tu número de teléfono">
+
+                    <label for="mensaje">Comentario o Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Escribe tu comentario o mensaje"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
